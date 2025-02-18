@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Indian Culture</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #DAFFFB;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #001C30;
+  }
+  .header {
+    background-color: #176B87;
+    color: #DAFFFB;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .content {
+    max-width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #64CCC5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .section-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .highlight {
+    background-color: #DAFFFB;
+    padding: 5px;
+    border-radius: 9px;
+    color: #001C30;
+  }
+  .section-list {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+  }
+  .section-list li {
+    margin-bottom: 10px;
+  }
+  .tourist-places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .tourist-place {
+    flex: 1;
+    background-color: #DAFFFB;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .tourist-place:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  .place-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>About Indian Culture</h1>
+  </div>
+  <div class="content">
+    <div class="section-title">Indian Festivals</div>
+    <div class="section-description">
+      India is known for its vibrant and diverse festivals that celebrate religious, cultural, and social occasions. Festivals like <span class="highlight">Diwali</span> (Festival of Lights), <span class="highlight">Holi</span> (Festival of Colors), and <span class="highlight">Eid</span> are celebrated with enthusiasm and joy throughout the country.
+    </div>
+
+    <div class="section-title">Indian Dance Forms</div>
+    <div class="section-description">
+      India boasts a rich tapestry of traditional dance forms, each with its own unique style and history. From the graceful movements of <span class="highlight">Bharatanatyam</span> to the storytelling art of <span class="highlight">Kathak</span>, these dance forms have captivated audiences for centuries.
+    </div>
+
+    <div class="section-title">Indian Tourist Places</div>
+    <div class="section-description">
+      India offers a plethora of breathtaking tourist destinations. Explore the majestic <span class="highlight">Taj Mahal</span> in Agra, the serene backwaters of <span class="highlight">Kerala</span>, or the spiritual vibes of <span class="highlight">Varanasi</span>. Don't miss the colorful markets of <span class="highlight">Jaipur</span> and the stunning landscapes of the <span class="highlight">Himalayas</span>.
+    </div>
+
+    <div class="tourist-places">
+      <div class="tourist-place">
+        <img class="place-image" src="taj_mahal.jpg" alt="Taj Mahal">
+        <div class="highlight">Taj Mahal</div>
+      </div>
+      <div class="tourist-place">
+        <img class="place-image" src="backwaters.jpg" alt="Kerala Backwaters">
+        <div class="highlight">Kerala Backwaters</div>
+      </div>
+      <div class="tourist-place">
+        <img class="place-image" src="varanasi.jpg" alt="Varanasi">
+        <div class="highlight">Varanasi</div>
+      </div>
+      <div class="tourist-place">
+        <img class="place-image" src="jaipur.jpg" alt="Jaipur">
+        <div class="highlight">Jaipur</div>
+      </div>
+      <div class="tourist-place">
+        <img class="place-image" src="himalayas.jpg" alt="Himalayas">
+        <div class="highlight">Himalayas</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Section</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #DAFFFB;
+        }
+
+        .card {
+            width: 90%;
+            padding: 20px;
+            background-color: #FFF;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-9px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-content {
+            text-align: center;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 150px; /* Set the desired height for rectangular images */
+            object-fit: cover;
+        }
+
+        .card-paragraph {
+            margin: 10px 0;
+        }
+
+        .card-button {
+            background-color: #64CCC5;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card-button:hover {
+            background-color: #DAFFFB;
+            color: #001C30;
+        }
+        .navbar {
+            background-color: #001C30;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #176B87;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class="card-section">
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://imgcld.yatra.com/ytimages/image/upload/t_ann_seo_banner_tab/v1530015312/AdvNation/ANN_TRP156/adventure-trips-in-india_1440486703_aNbqdJ.jpg" alt="Card Image">
+                <p class="card-paragraph">Adventure Tourism</p>
+                    <a href="Adventure_tourism_card.html"><button class="card-button">Explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/08/16/Pictures/_dbca9ffa-a138-11e8-9345-8d51f8ed9678.jpg" alt="Card Image">
+                <p class="card-paragraph">Beach Tourism</p>
+                    <a href=""><button class="card-button">Explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://3.bp.blogspot.com/-HPoHL02lVWA/UrVpVC2mEiI/AAAAAAAAAvo/ExBMpMq_Ojc/s1600/ai3.jpg" alt="Card Image">
+                <p class="card-paragraph">Cultural Tourism</p>
+                    <a href=""><button class="card-button">Explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://travelogueofkuntala.com/wp-content/uploads/2022/07/ecotourism.jpg" alt="Card Image">
+                <p class="card-paragraph">Eco Tourism</p>
+                    <a href=""><button class="card-button">Explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://gumlet.assettype.com/freepressjournal/2023-03/86b7d1ed-96af-4b16-8c3c-3e7e489b3f80/TINA_wildlife_story.jpg" alt="Card Image">
+                <p class="card-paragraph">Wildlife Tourism</p>
+                    <a href=""><button class="card-button">Explore</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

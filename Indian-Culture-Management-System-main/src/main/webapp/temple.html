@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Section</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #DAFFFB;
+        }
+
+        .card {
+            width: 90%;
+            padding: 20px;
+            background-color: #FFF;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-9px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-content {
+            text-align: center;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 150px; /* Set the desired height for rectangular images */
+            object-fit: cover;
+        }
+
+        .card-paragraph {
+            margin: 10px 0;
+        }
+
+        .card-button {
+            background-color: #64CCC5;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card-button:hover {
+            background-color: #DAFFFB;
+            color: #001C30;
+        }
+        .navbar {
+            background-color: #001C30;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #176B87;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Back</a>
+    </div>
+
+    <div class="card-section">
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://media.istockphoto.com/id/1285898933/photo/tall-buddha-statue-in-andhra-pradesh-state-amaravathi-india.jpg?s=612x612&w=0&k=20&c=3R939IZv0lNRZSTOCXB4KLvrFJgzJG08bjdC2M-gBy8=" alt="Card Image">
+                <p class="card-paragraph">Andhra Pradesh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://media.istockphoto.com/id/1323555810/photo/morning-sunrise-view.jpg?s=612x612&w=0&k=20&c=bQgY62S2xnaK9ME344q2JIY4vJoCUfWBeVEi9WNozDM=" alt="Card Image">
+                <p class="card-paragraph">Arunachal Pradesh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://media.istockphoto.com/id/488851719/photo/tea-plantation-landscape-sunset.jpg?s=612x612&w=0&k=20&c=R1WQEwwP-OuAp5ro3EvARCaLQkinOpG3G_h-uaPYyJQ=" alt="Card Image">
+                <p class="card-paragraph">Assam</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://cdn.britannica.com/12/94612-050-B4EEB84A/temple-Buddhist-Mahabodhi-Bihar-India-Bodh-Gaya.jpg" alt="Card Image">
+                <p class="card-paragraph">Bihar</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Laxman_temple_at_sirpur%2Cchhattisgarh%2Cindia.JPG" alt="Card Image">
+                <p class="card-paragraph">Chhattisgarh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://lp-cms-production.imgix.net/2021-11/GettyRF_157579910.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75" alt="Card Image">
+                <p class="card-paragraph">Goa</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://img.nayatrip.com/images/state/big/GUJARAT.jpg" alt="Card Image">
+                <p class="card-paragraph">Gujarat</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://www.wishboneindia.com/wp-content/uploads/2015/10/culture-of-haryana.jpg" alt="Card Image">
+                <p class="card-paragraph">Haryana</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://static.toiimg.com/photo/93246451.cms" alt="Card Image">
+                <p class="card-paragraph">Himachal Pradesh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://media.istockphoto.com/id/1323846766/photo/a-beautiful-view-of-dal-lake-in-winter-srinagar-kashmir-india.jpg?s=612x612&w=0&k=20&c=Dp3peie2t-jdLEmqe4W-DD09GACu2Cr-JjHHeB6rpBc=" alt="Card Image">
+                <p class="card-paragraph">Jammu and Kashmir</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c3/cc/4c/dassam-falls.jpg?w=700&h=500&s=1" alt="Card Image">
+                <p class="card-paragraph">Jharkhand</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://cdn.britannica.com/53/143553-050-C7E9D573/Keshava-Temple-Somanathapura-Karnataka-India.jpg" alt="Card Image">
+                <p class="card-paragraph">Karnataka</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2VyYWxhfGVufDB8fDB8fHww&w=1000&q=80" alt="Card Image">
+                <p class="card-paragraph">Kerala</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://assets.architecturaldigest.in/photos/6008504b54beb9e516da913b/4:3/w_1024,h_768,c_limit/madhya-pradesh-monuments-1366x768.jpg" alt="Card Image">
+                <p class="card-paragraph">Madhya Pradesh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://static.toiimg.com/photo/78427300.cms" alt="Card Image">
+                <p class="card-paragraph">Maharashtra</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdEB3jpvtdWfFO_A4gFZTPOmeTXQfl-3DEg&usqp=CAU" alt="Card Image">
+                <p class="card-paragraph">Manipur</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://www.nationsonline.org/gallery/India/Nohkalikai-Falls-Meghalaya.jpg" alt="Card Image">
+                <p class="card-paragraph">Meghalaya</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://im.indiatimes.in/content/2022/May/aizawl-mizoram1_6290a0de1344e.jpg?w=820&h=540&cc=1" alt="Card Image">
+                <p class="card-paragraph">Mizoram</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://www.tourmyindia.com/blog//wp-content/uploads/2016/10/Panoramic-Beauty-of-Nagaland.jpg" alt="Card Image">
+                <p class="card-paragraph">Nagaland</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://images.newindianexpress.com/uploads/user/imagelibrary/2023/1/7/w1200X800/Odisha.jpg" alt="Card Image">
+                <p class="card-paragraph">Odisha</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://media.istockphoto.com/id/535570117/photo/golden-temple-in-amritsar-punjab-india.jpg?s=612x612&w=0&k=20&c=TAgZK64Qz6YsljOK1rXZrrW1u1YSlb9e_YBEmm2pfBw=" alt="Card Image">
+                <p class="card-paragraph">Punjab</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://res.cloudinary.com/simplotel/image/upload/w_2811,h_5000/x_0,y_662,w_2811,h_1581,r_0,c_crop,q_80,fl_progressive/w_500,f_auto,c_fit/the-baagh-ananta-elite-ranthambore/Amer_fort" alt="Card Image">
+                <p class="card-paragraph">Rajasthan</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://adventuresome.in/wp-content/uploads/2019/06/Sikkim.jpg" alt="Card Image">
+                <p class="card-paragraph">Sikkim</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://media.istockphoto.com/id/1185863094/photo/vivekananda-rock-memorial-kanyakumari-tamil-nadu-india.jpg?s=612x612&w=0&k=20&c=_rSlagfs-A6o9skRMRAJmx9nzd3Eddmu9avKMm9Ftlo=" alt="Card Image">
+                <p class="card-paragraph">Tamil Nadu</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202209/Hyderabad_1200x768.jpeg?VersionId=mY3M9lfiPaU.euQX8bjtWgTtQuvbq5ac&size=690:388" alt="Card Image">
+                <p class="card-paragraph">Telangana</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://www.ritiriwaz.com/wp-content/uploads/2017/01/Ujjavanta-Palace-Tripura.jpg" alt="Card Image">
+                <p class="card-paragraph">Tripura</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://images.herzindagi.info/image/2023/Jan/villages-in-uttar-pradesh.jpg" alt="Card Image">
+                <p class="card-paragraph">Uttar Pradesh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://lp-cms-production.imgix.net/2022-03/GettyRF_956963154.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75" alt="Card Image">
+                <p class="card-paragraph">Uttarakhand</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/cover-image-of-Places-To-Visit-In-West-Bengal_13th-jan.jpg" alt="Card Image">
+                <p class="card-paragraph">West Bengal</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/157373-zcpsrpnnec-1617976605.jpg" alt="Card Image">
+                <p class="card-paragraph">Andaman and the Nicobar Islands</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://cdn.britannica.com/11/173811-050-5F0E921C/Waterfall-rock-garden-Nek-Chand-India-Chandigarh.jpg" alt="Card Image">
+                <p class="card-paragraph">Chandigarh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/02/13/Pictures/_950c16ba-4e35-11ea-93ec-7436143f72aa.png" alt="Card Image">
+                <p class="card-paragraph">Dadra and Nagar Haveli and Daman and Diu</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaGl8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="Card Image">
+                <p class="card-paragraph">Delhi</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://www.eladakhtourism.com/images/things-to-do-in-leh-ladakh.jpg" alt="Card Image">
+                <p class="card-paragraph">Ladakh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://nationaltoday.com/wp-content/uploads/2022/06/Puducherry-Liberation-Day.jpg" alt="Card Image">
+                <p class="card-paragraph">Puducherry</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

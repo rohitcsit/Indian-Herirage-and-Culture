@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Section</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #DAFFFB;
+        }
+
+        .card {
+            width: 90%;
+            padding: 20px;
+            background-color: #FFF;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-9px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-content {
+            text-align: center;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 150px; /* Set the desired height for rectangular images */
+            object-fit: cover;
+        }
+
+        .card-paragraph {
+            margin: 10px 0;
+        }
+
+        .card-button {
+            background-color: #64CCC5;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card-button:hover {
+            background-color: #DAFFFB;
+            color: #001C30;
+        }
+        .navbar {
+            background-color: #001C30;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #176B87;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Back</a>
+    </div>
+
+    <div class="card-section">
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRYF0epX_fXePMiTq0fRFePb7yYVJCYy7BsDrlDde-bUrtJttSG061owsh-sSAIl74y" alt="Card Image">
+                <p class="card-paragraph">Taj Mahal</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcR7-budZSMfu8xLy92wHOTlU8vckQNq8PQyBHd2jM35KRsUwu0h6r1cMh9B3rferXVy" alt="Card Image">
+                <p class="card-paragraph">Qutab Minar</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRHQKuESnzonNVZZJU3AhIdry7U66XTzhEt-_UERKqo9TIttI8jFHxA7REvzRqQYOWr" alt="Card Image">
+                <p class="card-paragraph">Charminar</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRSdyvGj6QFBa1IOn83BZR9Dryo2Mi8ws9rLD1KkvrY1KB4IAuxQg1NDqf60I45I7Wx" alt="Card Image">
+                <p class="card-paragraph">Konark Sun Temple</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQlKd00TMP5TQCh7ypKpS7EVgrnvP9ccvuZG2LwlK4CSROisN-5w8P3c5x-REjyoR5R" alt="Card Image">
+                <p class="card-paragraph">Gateway Of India Mumbai</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRLCXf-7c0zPj45G1k11S3I_4lq7Mvla0uW-QMsDZw9bnA85VYKZ2x0nvDoxZX3gkwY" alt="Card Image">
+                <p class="card-paragraph">Gol Gumbaz</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQpeKQbBGVHxFyQY27gA0-FltbB1pU2zmrhT8LoKrDA_3R3MdkPFaVk_L40AtQUuuJn" alt="Card Image">
+                <p class="card-paragraph">India Gate</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQmPqaSg2kFXK30goi0L8gip68NbpX6r-lzsOghvRPr1W9An-gdAOJwFxOTDTv93_6l" alt="Card Image">
+                <p class="card-paragraph">Ajanta Caves</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTNcx3YcY7zCtENoaAYr6Ps5o8ELFuj865QvKvfN3fGUBA9UOeLICRoiucGQ9v_nYfR" alt="Card Image">
+                <p class="card-paragraph">Bibi ka maqbara</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTBEV9cO_7iYttc1qnPey2McHq4eBmUkhd9Ch60LqNkxOimtyH_kZHfIrrY2J75b-xw" alt="Card Image">
+                <p class="card-paragraph">Safdarjung Tomb</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQ9ZGsE0dvBbhF0DTNxdDF2zrprMWlEi4RuSxYdxbxEWGNRA2SK_NH1ePhDhH5REr7g" alt="Card Image">
+                <p class="card-paragraph">Champaner-Pavagadh Archaeological Park</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTKhvTUjoFrnqQ5QBu8DZ_NsdAdSxWCtZznzWjIDfo2g1AWIqgn8LB9C_YiTeEtPY8c" alt="Card Image">
+                <p class="card-paragraph">Vijay Stambh</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRRmRity2cTj_9SXD5Fkr5LxsO5Ais2nNNxD7PDlijCppRKWu115_DIZxYb3OPtB81d" alt="Card Image">
+                <p class="card-paragraph">Group of Monuments at Mahabalipuram</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTpcFOwQXit10TMcBaS9JdPCIOJXZz35ErBBGuZMzYjPyH4wv2LwIU2IsUw6HPf9_eD" alt="Card Image">
+                <p class="card-paragraph">Vivekananda Rock statue</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Statue_of_Unity.jpg/1200px-Statue_of_Unity.jpg" alt="Card Image">
+                <p class="card-paragraph">Statue Of Unity</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Mariam%27s_Tomb%2C_Sikandra%2C_Agra.JPG" alt="Card Image">
+                <p class="card-paragraph">Tomb of Mariam-UZ-Zamani</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Octogal_tomb_with_Mihrab_on_the_west_side.JPG"alt="Card Image">
+                <p class="card-paragraph">Sultan Ghari</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSwdvb2r02k2tGWrBzI3-HUIamV1eDPAnSV20njy-5_Ou4QFQcWG7IpXfQQEB6v_WgI"alt="Card Image">
+                <p class="card-paragraph">Iron Pillar</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRTbJ7y3QYBCmCB7Y5MtqgnqW0WyMy6vx07THFVghn8-eln3Ojgd1iflGXgopaOmXgT"alt="Card Image">
+                <p class="card-paragraph">Raj Ghat</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSoPuRue2YqUegwstdT31TY8naCB8eaKZqNWb3qgoAEl7xA1Ud6knEw8iNQFx2HFOzY"alt="Card Image">
+                <p class="card-paragraph">Masroor Rock Cut Temple</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTXz8KdYt20_cXE0EqW3eiphYRHG0bho5NcbogywjgxW4D9BkXWgtdxL4mhsDlvPEd-"alt="Card Image">
+                <p class="card-paragraph">Amar Jawan Jyoti</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQ2ieIQ6cviG-bfsaqHIKMqmk0YBhD9nx_PnfxSXM4u7JgGFRTaT5c5Hev5EMWPKIdD"alt="Card Image">
+                <p class="card-paragraph">Qutub Shahi Tombs</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-content">
+                <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/d/de/British_Museum_Asia_14.jpg"alt="Card Image">
+                <p class="card-paragraph">Amaravati Stupam</p>
+                <button class="card-button">Explore</button>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

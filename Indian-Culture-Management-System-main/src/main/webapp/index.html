@@ -1,0 +1,229 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Hello, Spring Boot!</h1>
+</body>
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #001C30;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #176B87;
+            color: black;
+        }
+
+        .hero {
+            background-image: url('https://media.istockphoto.com/id/501775788/photo/holi-festivalhands-in-india.webp?b=1&s=170667a&w=0&k=20&c=NF6r1yq60014r0khAQ6HJjtuo9xXR28xJziPjIXzCFs=');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px;
+            color: white;
+        }
+
+        .hero button {
+            background-color: #64CCC5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            
+        }
+
+        .hero button:hover {
+            background-color: #DAFFFB;
+            color: #001C30;
+        }
+
+        .card-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #DAFFFB;
+        }
+
+        .card {
+            width: 90%;
+            padding: 20px;
+            background-color: #FFF;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-9px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-content {
+            text-align: center;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 150px; /* Set the desired height for rectangular images */
+            object-fit: cover;
+        }
+
+        .card-paragraph {
+            margin: 10px 0;
+        }
+
+        .card-button {
+            background-color: #64CCC5;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .card-button:hover {
+            background-color: #DAFFFB;
+            color: #001C30;
+        }
+
+        .content {
+            padding: 20px;
+            min-height: calc(100vh - 80px); /* Adjust for footer height */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </div>
+
+    <div class="content">
+        <!-- Page content goes here -->
+        <div class="hero">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover amazing things with us.</p>
+            <!--<button>Explore</button>-->
+        </div>
+        
+        <div class="card-section">
+            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1669628182335-4c50980f419d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMHRvdXJpc218ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card Image">
+                    <p class="card-paragraph">Tourism</p>
+                    <a href="tourism.html"><button class="card-button">Explore</button></a>
+                </div>
+            </div>
+                        <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://www.trocals.com/wp-content/uploads/2022/08/madhubani-painting.webp" alt="card Image">
+                    <p class="card-paragraph">Art Forms</p>
+                    <a href="art_form.html"><button class="card-button">Explore</button></a>
+                </div>
+            </div>
+                  <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wVhxo4hgqw_tLjwITTZUqRdpg7DNYYAkEQ&usqp=CAU" alt=" card Image">
+                    <p class="card-paragraph">historical monument</p>
+                    <a href="historal_momunents.html"><button class="card-button">Explore</button></a>
+                </div>
+            <!--<div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1566578312612-d903c67c4ad2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwdG91cmlzbSUyMDE1MHgxNTB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card Image">
+                    <p class="card-paragraph">Indian Festival Calendar</p>
+                    <a href="Calendar.html"><button class="card-button">Explore</button></a>
+                </div>-->
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHRlbXBsZXMlMjBpbiUyMGluZGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Card Image">
+                    <p class="card-paragraph">Temples</p>
+                    <a href="temple.html"><button class="card-button">Explore</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwZGFuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card Image">
+                    <p class="card-paragraph">Indian Dance Culture</p>
+                    <a href="dance.html"><button class="card-button">Explore</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1519955266818-0231b63402bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Card Image">
+                    <p class="card-paragraph">Modern India</p>
+                    <button class="card-button">Explore</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card Image">
+                    <p class="card-paragraph">Indian Front Liners</p>
+                    <a href="tourism.html"><button class="card-button">Explore</button></a>
+                </div>
+            <!--</div>-->
+            <!--<div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://www.trocals.com/wp-content/uploads/2022/08/madhubani-painting.webp" alt="card Image">
+                    <p class="card-paragraph">Art Forms</p>
+                    <a href="art_form.html"><button class="card-button">Explore</button></a>
+                </div>-->
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://images.unsplash.com/photo-1566578312612-d903c67c4ad2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwdG91cmlzbSUyMDE1MHgxNTB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card Image">
+                    <p class="card-paragraph">Indian Festival Calendar</p>
+                    <a href="Calendar.html"><button class="card-button">Explore</button></a>
+                </div>
+<!--            <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wVhxo4hgqw_tLjwITTZUqRdpg7DNYYAkEQ&usqp=CAU" alt=" card Image">
+                    <p class="card-paragraph">historical monument</p>
+                    <a href="historal_momunents.html"><button class="card-button">Explore</button></a>
+                </div>-->
+            </div>
+           <div class="card">
+                <div class="card-content">
+                    <img class="card-image" src="https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_auto,w_750/f_auto/tk-traditional-indian-foods-to-taste-in-2022-phpEXAXNS" alt="card Image">Food<p class="card-paragraph">Food</p>
+                    <a href="food_card.html"><button class="card-button">Explore</button></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
